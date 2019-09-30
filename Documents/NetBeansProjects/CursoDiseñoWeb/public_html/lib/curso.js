@@ -1,8 +1,26 @@
 
-// GALLERIA
-Galleria.loadTheme('plugins/galleria/themes/classic/galleria.classic.min.js');
-Galleria.run('.galleria');
-// SUPER SIMPLE SLIDER
+$('#txtFecha').pickadate({
+    format: 'dd/mm/yyyy'
+});
+
+//$("#exampleModal").modal();
+//
+//setTimeout(function(){
+//    
+//    $("#exampleModal").modal('hide');
+//    
+//},2000)
+//SWEET-ALERT
+//swal({
+//    title: "Error!",
+//    text: "Here's my error message!",
+//    type: "error",
+//    confirmButtonText: "Cool"
+//});
+//// GALLERIA
+//Galleria.loadTheme('plugins/galleria/themes/classic/galleria.classic.min.js');
+//Galleria.run('.galleria');
+//// SUPER SIMPLE SLIDER
 //$(function($){
 //    $('.slider').sss();
 //});
